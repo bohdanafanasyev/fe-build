@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Mansalva';
+  src: url('./assets/fonts/Mansalva/Mansalva-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Mansalva/Mansalva-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.header,
+.text,
+.button {
+  font-family: Mansalva;
+  margin: 0;
+}
+
+.header {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.image {
+  height: auto;
+  width: 100%;
+}
+
+.button {
+  border: none;
+  font-size: 24px;
+  margin-top: 10px;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
